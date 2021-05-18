@@ -1,7 +1,6 @@
-package com.qa.starterworld;
+package com.qa.javabasics;
 
-public class Runner {
-
+public class Calculator {
 
 	public static int add(int x, int y) {
 		return x + y;
@@ -17,7 +16,7 @@ public class Runner {
 
 	public static double divide(double x, double y) {
 		if (x < y) {
-			return y /x;
+			return y / x;
 		} else {
 			return 0;
 		}
@@ -26,4 +25,5 @@ public class Runner {
 	public static double doubleDivide(double x, double y) {
 		return x / y;
 	}
+
 }

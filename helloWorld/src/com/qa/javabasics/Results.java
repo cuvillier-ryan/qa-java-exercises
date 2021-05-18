@@ -1,4 +1,4 @@
-package com.qa.starterworld;
+package com.qa.javabasics;
 
 public class Results {
 	
@@ -18,14 +18,10 @@ public class Results {
 		
 	}
 	
-	public static void percentageResults() {
+	public static void getPercentage() {
 		total = Chemistry + Biology + Physics;
 		percentage = (total * 100) / 450;
 		System.out.println("Total percentage is: " + percentage);
 	}
-	
-		
-	
-	
 
 }
