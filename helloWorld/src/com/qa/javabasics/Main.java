@@ -1,8 +1,12 @@
 package com.qa.javabasics;
 
-import java.util.ArrayList;
+import com.qa.javabasics.constructors.Book;
+import com.qa.javabasics.constructors.Person;
 
 public class Main {
+	
+	static Person person1 = new Person("Ryan", 34, "male");
+	static Book book1 = new Book("The Raven", "Edgar Allen Poe", 30);
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -30,10 +34,8 @@ public class Main {
 //			}
 			
 		
-		Person ryan = new Person("Ryan", 34, "male");
-		Book raven = new Book("The Raven", "Edgar Allen Poe", 30);
 		
-		System.out.println(ryan.isReading() + raven.getBookTItle());
+		System.out.println(person1.isReading() + book1.title);
 		
 	}
 

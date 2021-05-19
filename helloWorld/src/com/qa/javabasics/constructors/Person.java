@@ -1,4 +1,4 @@
-package com.qa.javabasics;
+package com.qa.javabasics.constructors;
 
 public class Person {
 	public String name;
@@ -15,4 +15,7 @@ public class Person {
 	public String isReading() {
 		return this.name + " is reading: ";
 	}
+	
+	
+	
 }

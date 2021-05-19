@@ -1,4 +1,4 @@
-package com.qa.javabasics;
+package com.qa.javabasics.calculator;
 
 public class Results {
 	

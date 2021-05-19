@@ -1,4 +1,4 @@
-package com.qa.javabasics;
+package com.qa.javabasics.arrays;
 
 import java.util.ArrayList;
 
@@ -17,6 +17,7 @@ public class ArrayListManipulation {
 //		try using the reverse(), swap() and clone() methods from the Collections class
 
 	ArrayList<Integer> numbers = new ArrayList<Integer>();
+	
 	
 	
 	
