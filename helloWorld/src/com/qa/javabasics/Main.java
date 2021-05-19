@@ -11,7 +11,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		
-		System.out.println(person1.isReading(book1)); 
+		person1.isReading(book1);
 		
 	}
 

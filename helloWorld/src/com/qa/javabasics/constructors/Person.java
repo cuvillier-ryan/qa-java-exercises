@@ -12,8 +12,8 @@ public class Person {
 		this.gender = gender;
 	}
 
-	public String isReading(Book book) {
-		return this.name + " is reading: " + book.title;
+	public void isReading(Book book) {
+		System.out.println(this.name + " is reading: " + book.title);
 	}
 	
 	
